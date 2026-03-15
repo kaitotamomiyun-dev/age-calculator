@@ -11,7 +11,7 @@ def calculate_age():
         if birth_year > current_year:
             result_label.config(text="Bruh...Are you a time traveler")
         elif birth_year in [18, 19 , 20]:
-            result_label.config(text=f"technically...{sleep(1)} humm... {sleep(1)} your not an adult {sleep(1)}...yet")
+            result_label.config(text=f"technically...humm...your not an adult...yet")
         elif current_year - birth_year > 120:
             result_label.config(text="the oldest human lived 122years🤓☝")
         elif birth_year == current_year:
